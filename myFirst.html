@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        section {
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            display: inline-block;
+            width: 300px;
+        }
+        button {
+            background: #2ecc71;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <header>Selamat Datang di Website Saya</header>
+    <section>
+        <div class="card">
+            <h2>Halo!</h2>
+            <p>Ini adalah contoh website sederhana dengan tampilan modern.</p>
+            <button onclick="sayHello()">Klik Saya</button>
+        </div>
+    </section>
+    <script>
+        function sayHello() {
+            alert("Terima kasih telah mengunjungi website ini!");
+        }
+    </script>
+</body>
+</html>
