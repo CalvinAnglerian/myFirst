@@ -1,5 +1,5 @@
 <script>
     function sayHello() {
-        alert("Terima kasih telah mengunjungi website ini!");
+        alert("Terima kasih telah mengunjungi website ini!")
     }
 </script>
